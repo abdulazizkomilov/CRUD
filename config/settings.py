@@ -44,6 +44,8 @@ INTERNAL_IPS = [
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "tailwind"
 CRISPY_TEMPLATE_PACKS = "tailwind"
+# settings.py
+SECURE_SSL_REDIRECT = True
 
 
 NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd"
