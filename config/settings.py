@@ -46,6 +46,8 @@ CRISPY_ALLOWED_TEMPLATE_PACKS = "tailwind"
 CRISPY_TEMPLATE_PACKS = "tailwind"
 # settings.py
 SECURE_SSL_REDIRECT = True
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
 
 
 NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd"
